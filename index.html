@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio Iury Taveira</title>
+</head>
+<body>
+    <header>
+        <h1>Portfólio Iury Taveira</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="mostrarSecao('sobre')">Sobre</a></li>
+                <li><a href="#" onclick="mostrarSecao('projetos')">Projetos</a></li>
+                <li><a href="#" onclick="mostrarSecao('curriculo')">Currículo</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="sobre" class="secao ativa">
+        <h2>Sobre</h2>
+        <img src="img/imagem.jpeg" alt="Minha Foto" class="perfil">
+        <p>Sou Iury Taveira, tenho 22 anos e estudo Sistemas de Informação na PUC Minas. Busco me desenvolver continuamente por meio de práticas e projetos em equipe. Atualmente, ainda não trabalho na área de desenvolvimento de software, mas possuo experiência em trabalho em equipe, gestão de pessoas e atendimento ao cliente. Estou em busca da minha primeira oportunidade na área de desenvolvimento para aplicar e ampliar meus conhecimentos. Durante a faculdade, tive contato com C#, HTML, CSS, JavaScript e SQL Server. Recentemente, me aprofundei em Node.js e React para aprimorar minhas habilidades.</p>
+    </section>
+    
+    <section id="projetos" class="secao">
+        <h2>Projetos</h2>
+        <div id="lista-projetos"></div>
+    </section>
+    
+    <section id="curriculo" class="secao">
+        <!-- O conteúdo será inserido dinamicamente pelo JavaScript -->
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
