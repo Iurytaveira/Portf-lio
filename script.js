@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
         { nome: "Projeto 2", descricao: "Projeto de e-commerce.", imagem: "img/commerce1.JPG", link: "https://github.com/Iurytaveira/Tela-E-commerce" },
         { nome: "Projeto 3", descricao: "Projeto extensionista desenvolvido em equipe para uma barbearia.", imagem: "img/elclub.JPG", link: "https://github.com/Iurytaveira/El-Club-System" },
         { nome: "Projeto 4", descricao: "Projeto de e-commerce com API.", imagem: "img/commerce2.JPG", link: "https://github.com/Iurytaveira/e-commerce-com-API" },
-        { nome: "Projeto 5", descricao: "Projeto para restaurante desenvolvido em equipe.", imagem: "img/restaurante.JPG", link: "https://github.com/joaovictortbm/Trabalho_Grafos" }
+        { nome: "Projeto 5", descricao: "Projeto da matéria de grafos desenvolvido em equipe.", imagem: "img/restaurante.JPG", link: "https://github.com/joaovictortbm/Trabalho_Grafos" }
     ];
     
     const listaProjetos = document.getElementById("lista-projetos");
